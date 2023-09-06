@@ -32,6 +32,7 @@
   --white-color: #ffffff;
   --current-color: #000000;
   --active-color: #cc9933;
+  --lightActive-color: #f0bf5f;
   --heading-color: #333333;
 }
 
@@ -68,7 +69,6 @@ body {
   font-family: "Muller", "Arial", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  line-height: 2;
   color: var(--current-color);
   background-color: var(--mainBg-color);
 }
@@ -110,16 +110,20 @@ img {
 
 .section__title {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
   padding-left: 40px;
   font-size: 4rem;
   font-weight: 400;
   color: var(--heading-color);
 }
 
+.link-pointer {
+  vertical-align: middle;
+}
+
 .container {
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 67px;
   padding: 0 15px;
   max-width: 1200px;
 }
@@ -183,4 +187,65 @@ img {
 
 .header__btn:first-child {
   margin-right: 40px;
+}
+
+/* special-offers */
+.special-offers__left {
+  margin-right: 24px;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.special-offers__content {
+  padding: 38px 45px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border-radius: 15px;
+  color: var(--white-color);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.special-offers__top {
+  margin-bottom: 24px;
+  flex-basis: 50%;
+}
+
+.special-offers__bottom {
+  flex-basis: 50%;
+}
+
+.special-offers__right {
+  flex-basis: 50%;
+}
+
+.special-offers__subtitle {
+  margin: 0;
+  margin-bottom: 15px;
+  max-width: 420px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.special-offers__subtitle--big {
+  font-size: 6rem;
+}
+
+.special-offers__price {
+  margin-bottom: 45px;
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
+.special-offers__price--big {
+  font-size: 3rem;
+}
+
+/* about-us */
+.about-us__descr {
+  max-width: 890px;
+  line-height: 2;
 }
