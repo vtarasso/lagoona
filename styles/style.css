@@ -295,3 +295,32 @@ img {
   max-width: 402px;
   line-height: 2;
 }
+
+/* advantages */
+.advantages__items {
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.advantages__item {
+  padding: 40px 39px 32px 45px;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 275px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.advantages__icon {
+  margin-bottom: 10px;
+  width: 64px;
+  height: 66px;
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.advantages__descr {
+  margin: 0;
+  line-height: 2;
+}
