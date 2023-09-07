@@ -402,6 +402,45 @@ img {
 }
 
 /* tour */
+.tour__container {
+  padding: 46px 55px;
+}
+
+.tour__title {
+  padding-left: 0;
+}
+
+.tour__form {
+  padding: 27px 29px;
+  background-color: var(--white-color);
+  border-radius: 15px;
+}
+
+.form__items {
+  align-items: center;
+  gap: 52px;
+}
+
 .form__item {
   flex-direction: column;
+}
+
+.form__label {
+  margin-bottom: 15px;
+  padding-left: 5px;
+  font-size: 1.2rem;
+}
+
+.form__input {
+  border: none;
+  font-size: 1.6rem;
+}
+
+.form__input--check {
+  width: 120px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.form__btn {
+  padding: 11px 31px;
 }
