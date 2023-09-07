@@ -449,3 +449,8 @@ img {
 }
 
 /* contacts */
+.contacts__wrapper {
+  padding: 45px;
+  background-color: var(--white-color);
+  border-radius: 15px;
+}
