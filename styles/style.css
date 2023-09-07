@@ -118,6 +118,7 @@ img {
 }
 
 .link-pointer {
+  margin-left: 2px;
   vertical-align: middle;
 }
 
@@ -323,4 +324,79 @@ img {
 .advantages__descr {
   margin: 0;
   line-height: 2;
+}
+
+/* accommodation */
+.accommodation__items {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.accommodation__item {
+  width: 374px;
+  min-height: 440px;
+  background-color: var(--white-color);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.accomodation__info {
+  padding: 27px 45px;
+}
+
+.accomodation__rating {
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.accomodation__price {
+  margin: 0;
+}
+
+.accomodation__text {
+  color: var(--lightGrey);
+}
+
+.accommodation__text--bold {
+  margin-right: 14px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.rating {
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+
+.accommodation__subtitle {
+  margin: 0;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.accommodation__location {
+  margin: 0;
+  margin-bottom: 18px;
+  color: var(--lightGrey);
+}
+
+
+.accommodation__item--all {
+  position: relative;
+  background-image: url("../images/accommod-9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.accommodation__link {
+  position: absolute;
+  bottom: 26px;
+  left: 54px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+  color: var(--white-color);
 }
