@@ -48,7 +48,7 @@
         </nav>
 
         <div class="header__btn-right flex">
-          <button class="btn-reset btn header__btn">Хочу тур</button>
+          <a href="#tour" class="btn-reset btn header__btn">Хочу тур</a>
           <button class="btn-reset btn header__btn">Обратный звонок</button>
         </div>
       </div>
@@ -506,7 +506,76 @@
       </div>
     </section>
 
-    <section class="tour"></section>
+    <section class="tour" id="tour">
+      <div class="container tour__container">
+        <h2 class="section__title tour__title">Хочу тур</h2>
+        <form class="tour__form form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+          <ul class="list-reset form__items flex">
+            <li class="form__item flex">
+              <label class="form__label" for="city">
+                Город вылета
+              </label>
+              <select class="form__input" name="city" id="city" required>
+                <option value="" disabled selected>Выберите город</option>
+                <option value="Санкт-Петербург">Санкт-Петербург</option>
+                <option value="Саранск">Саранск</option>
+                <option value="Севастополь">Севастополь</option>
+                <option value="Северодвинск">Северодвинск</option>
+                <option value="Симферопль">Симферопль</option>
+                <option value="Сочи">Сочи</option>
+                <option value="Ставрополь">Ставрополь</option>
+                <option value="Сызрань">Сызрань</option>
+                <option value="Сыктыквар">Сыктыквар</option>
+              </select>
+            </li>
+
+            <li class="form__item flex">
+              <label class="form__label" for="city">
+                Страна
+              </label>
+              <select class="form__input" name="country" id="country" required>
+                <option value="" disabled selected>Выберите страну</option>
+                <option value="Австралия">Австралия</option>
+                <option value="Австрия">Австрия</option>
+                <option value="Азербайджан">Азербайджан</option>
+                <option value="Албания">Албания</option>
+                <option value="Англия">Англия</option>
+                <option value="Аргентина">Аргентина</option>
+                <option value="Армения">Армения</option>
+                <option value="Белоруссия">Белоруссия</option>
+                <option value="Бельгия">Бельгия</option>
+              </select>
+            </li>
+
+            <li class="form__item flex">
+              <label class="form__label" for="date">
+                Дата прибытия
+              </label>
+              <input class="form__input" id="date" type="date" value="2023-09-07" name="date" min="2023-09-07" max="2024-12-31" required>
+            </li>
+
+            <li class="form__item flex">
+              <label class="form__label" for="nights">
+                Ночей
+              </label>
+              <input class="form__input" id="nights" type="number" name="nights" min="1" max="14" placeholder="6" required>
+            </li>
+
+            <li class="form__item flex">
+              <label class="form__label" for="tourists">
+                Туристы
+              </label>
+              <input class="form__input" id="tourists" type="number" name="tourists" min="1" max="6" placeholder="2" required>
+            </li>
+
+            <li class="form__item">
+              <button class="btn-reset btn form__btn">Найти</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+
     <section class="contacts" id="contacts"></section>
   </main>
 

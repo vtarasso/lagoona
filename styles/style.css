@@ -400,3 +400,8 @@ img {
   text-align: center;
   color: var(--white-color);
 }
+
+/* tour */
+.form__item {
+  flex-direction: column;
+}
