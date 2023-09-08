@@ -451,6 +451,62 @@ img {
 /* contacts */
 .contacts__wrapper {
   padding: 45px;
+  justify-content: space-between;
   background-color: var(--white-color);
   border-radius: 15px;
+}
+
+.contacts__info {
+  flex-direction: column;
+  flex-basis: 34.7%;
+}
+
+.contacts__items {
+  margin-bottom: 45px;
+}
+
+.contacts__item {
+  padding: 24px 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.contacts__item:first-child {
+  padding-top: 0;
+}
+
+.contacts__subtitle {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+
+.contacts__descr {
+  margin: 0;
+  width: 229px;
+  line-height: 1.5;
+}
+
+.contacts__descr--address {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contacts__link {
+  color: var(--active-color);
+}
+
+.contacts__btn {
+  padding: 25px 29px;
+}
+
+.contacts__image {
+  flex-basis: 60.5%;
+  background-image: url("../images/contacts-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
