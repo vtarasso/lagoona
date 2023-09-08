@@ -497,6 +497,10 @@ img {
   align-items: flex-start;
 }
 
+.contacts__question {
+  color: var(--lightGrey);
+}
+
 .contacts__link {
   color: var(--active-color);
 }
