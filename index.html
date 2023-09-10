@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/png" href="images/fav.png">
   <base target="_blank">
   <title>Lagoona</title>
 </head>
@@ -16,11 +17,16 @@
           <a class="header__logo" href="#">
             <img src="images/logo.svg" alt="Логотип сети отелей Лагуна">
           </a>
-          <a class="header__link-tel" href="tel:+74953225448">+7 495 322-54-48</a>
+          <a class="header__link header__link--tel" href="tel:+74953225448">+7 495 322-54-48</a>
         </div>
 
-        <div class="header__right">
-          <a class="header__link-login" href="#">Личный кабинет</a>
+        <div class="header__right flex">
+          <a class="header__link--login" href="#">
+            <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.59 1.41L14.17 5H0V7H14.17L10.58 10.59L12 12L18 6L12 0L10.59 1.41ZM19 0V12H21V0H19Z" fill="#CC9933"></path>
+            </svg>
+            Личный кабинет
+          </a>
         </div>
       </div>
 
@@ -63,8 +69,7 @@
         <h2 class="section__title special-offers__title">Спецпредложения</h2>
         <div class="special-offers__wrapper flex">
           <div class="special-offers__left flex">
-
-            <div class="special-offers__top special-offers__content flex" style="background-image: url('images/sp-offers-1.jpg');">
+            <div class="special-offers__top special-offers__content special-offers__content--shadow flex" style="background-image: url('images/sp-offers-1.jpg');">
               <h3 class="special-offers__subtitle">Мальдивские острова</h3>
               <span class="special-offers__price">от 55 000</span>
               <a class="special-offers__link" href="#">
@@ -75,7 +80,7 @@
               </a>
             </div>
 
-            <div class="special-offers__bottom special-offers__content flex"  style="background-image: url('images/sp-offers-2.jpg');">
+            <div class="special-offers__bottom special-offers__content special-offers__content--shadow flex"  style="background-image: url('images/sp-offers-2.jpg');">
               <h3 class="special-offers__subtitle">
                 Горящий тур&nbsp;на&nbsp;остров Крит
               </h3>
